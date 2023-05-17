@@ -1,0 +1,48 @@
+//@import 'podcast';
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1rem;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.tinymce {
+    background: transparent;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+
+	.login-container {
+		text-align: center;
+	}
+
+	.singleDoc {
+		border: 1px solid rgb(180, 180, 180);
+		padding: 5px;
+		margin: 10px;
+	}
+}
+
+.error-message {
+	color: red;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: rgba(255, 255, 255, 0.87);
+    color: #242424;
+  }
+}
